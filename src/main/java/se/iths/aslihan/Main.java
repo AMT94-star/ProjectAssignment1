@@ -31,10 +31,10 @@ public class Main {
     }
 
     private static double returnHighestVal(double a, double b){
-        if(a>b){
+        if(a > b){
             return a;
         }
-        else if(a<b){
+        else if(a < b){
             return b;
         }
         else{
