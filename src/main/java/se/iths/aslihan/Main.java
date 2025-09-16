@@ -23,7 +23,8 @@ public class Main {
         int max = maxValue[0];
 
         for(int i = 0; i < maxValue.length; i++){
-            if(maxValue[i] > max){
+            int num = maxValue[i];
+            if(num > max){
                 max = maxValue[i];
             }
         }
